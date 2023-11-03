@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family:Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf)
+}
+.container{
+    width: 1180px;
+    height: 100vh;
+    margin:0 auto;
+}
+.header{
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+.header_logo-img{
+    margin-right: 11.88
+}
+.header_logo-p{
+    color: #333333;
+font-size: 20px;
+font-family: Rubik;
+font-weight: 500;
+word-wrap: break-word;
+}
+.header_search{
+    width: 320px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 16px;
+    font-family: Rubik-Medium;
+    color:#333;
+    margin-right: 32px;
+}
+.header_search:focus{
+    outline: none;
+}
+.header_search:placeholder{
+    color: #828282;
+font-size: 16px;
+font-family: Rubik;
+font-weight: 400;
+
+}
+.header_search-btn{
+border: none;
+background: none;
+color: #E5261E;
+font-size: 16px;
+font-family: Rubik-Medium;
+
+}
+.header_login{
+    width:113px;
+    height: 38px;
+    border: none;
+    background-color: #E5261E;
+    border-radius: 4px;
+    color: white;
+font-size: 16px;
+font-family: Rubik-Medium;
+}
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:44px;
+}
+.li{
+display: flex;
+text-decoration: none;
+}
+.film{
+    color: #E5261E;
+    font-size: 28px;
+    font-family: Rubik-medium;
+    display: flex;
+    text-decoration: none;
+    border-bottom: 2.5px solid red;
+    line-height: normal;
+        
+}
+.tele{
+    color: #333333;
+font-size: 28px;
+font-family: Rubik-medium;
+display: flex;
+margin-left:24px;
+text-decoration: none;
+}
+.ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.new{
+    font-family: Rubik-medium;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    color:#333;
+    margin-top:41px;
+
+}
+.sect{
+    display:flex;
+    margin-top:16px;
+    justify-content: space-between;
+}
+.film1{
+    font-size: 20px;
+    font-style: normal;
+    font-family:Rubik;
+    white-space: pre;
+    color:#333;
+    margin-top:16px;
+    
+}
+.film-img{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+.janr{
+    font-size: 24px;
+    font-style: normal;
+    font-family: Rubik-medium;
+    color:#333;
+    margin-top:32px;
+}
+.janr-img{
+    gap: 16px;
+    margin-top:16px;
+    
+    
+}
+
+.janr-text{
+    
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    color:white;
+    
+}
+.sect_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+background: linear-gradient(128deg, #F2C94C 8.44%, #F29A4A 91.36%);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+width: 280px;
+    height: 208px;
+    
+}
+
+.sect_item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+opacity: 0.8;
+background: linear-gradient(128deg, #F2994A 8.44%, #EB5757 91.36%);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+width: 280px;
+    height: 208px;
+}
+.sect_item2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   border-radius: 6px;
+opacity: 0.8;
+background: linear-gradient(128deg, #56CCF2 8.44%, #2F80ED 91.36%);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+width: 280px;
+    height: 208px;
+}
+.sect_item3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+opacity: 0.8;
+background: linear-gradient(128deg, #828282 8.44%, #333 91.36%);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+width: 280px;
+    height: 208px;
+}
+.emoj{
+    margin-top: 56px;
+}
+.footer{ 
+    display: flex; 
+    width: 150%; 
+    height: 120px; 
+    margin-left: -130px;
+    background: var(--Gray-6, #F2F2F2); 
+    align-items: center; 
+    margin-top: 72px;
+} 
+ 
+.footer_logo{ 
+    width: 32px; 
+    height: 64px; 
+    margin-left: 130px; 
+    margin-right: 40px; 
+ 
+} 
+.footer_text{ 
+   display: block;
+}
+.adres{
+    color: var(--Gray-1, #333);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    height: 19px;
+    margin-top: 6px;
+    width: 940px;
+    
+}
+.site{
+    text-decoration: none;
+    color: var(--htc-color, #1F4766);
+    font-family: Rubik-medium;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+}
+.site1{
+    height: 19px;
+    margin-top: 10px;
+    width: 940px;
+}
+.hidden-text{
+    position: absolute;
+    top:240px;
+    height: 354px;
+    width: 248px;
+    background: rgba(51, 51, 51, 0.6);
+    color: var(--Gray-6, #F2F2F2);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 140%;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    opacity: 0;
+}
+.hidden-text:hover{
+    opacity: 1;
+}
+@media screen and (max-width:390px){
+    .container{
+        width: 390px;
+    }
+ .sect{
+    flex-direction: column;
+    align-items: center;
+ }
+ .film1{
+    margin-bottom: 16px;
+ }
+ .footer{
+    width: 390px;
+    margin-left:0px;
+    height: 150px;
+ }
+.adres{
+    height: 50px;
+    width: 278px;
+    margin-top: 12px;
+}
+
+.site1{
+    width: 278px;
+    margin-top: -20px;
+}
+.footer_logo{ 
+    margin-left: 40px; 
+} 
+.sect_item1{
+margin-top:16px;
+    }
+    .sect_item2{
+margin-top:16px;
+    }
+    .sect_item3{
+margin-top:16px;
+    }
+    .new{
+        text-align: center;
+    }
+    .janr{
+        text-align: center;
+    }
+    .header_search{
+        width: 200px;
+    }
+    .header{
+        height: 130px;
+        flex-direction: column;
+    }
+    .header_login{
+        margin-bottom: -20px;
+    }
+
+}

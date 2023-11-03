@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family:Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf)
+}
+.container{
+    width: 1180px;
+    height: 100vh;
+    margin:0 auto;
+}
+.header{
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+.header_logo-img{
+    margin-right: 11.88
+}
+.header_logo-p{
+    color: #333333;
+font-size: 20px;
+font-family: Rubik;
+font-weight: 500;
+word-wrap: break-word;
+}
+.header_search{
+    width: 320px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 16px;
+    font-family: Rubik-Medium;
+    color:#333;
+    margin-right: 32px;
+}
+.header_search:focus{
+    outline: none;
+}
+.header_search:placeholder{
+    color: #828282;
+font-size: 16px;
+font-family: Rubik;
+font-weight: 400;
+
+}
+.header_search-btn{
+border: none;
+background: none;
+color: #E5261E;
+font-size: 16px;
+font-family: Rubik-Medium;
+
+}
+.header_login{
+    width:113px;
+    height: 38px;
+    border: none;
+    background-color: #E5261E;
+    border-radius: 4px;
+    color: white;
+font-size: 16px;
+font-family: Rubik-Medium;
+}
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:44px;
+}
+.li{
+display: flex;
+text-decoration: none;
+}
+.tele{
+    color: #E5261E;
+    font-size: 28px;
+    font-family: Rubik-medium;
+    display: flex;
+    text-decoration: none;
+    border-bottom: 2.5px solid red;
+    line-height: normal;
+    margin-left:24px;
+        
+}
+.film{
+    color: #333333;
+font-size: 28px;
+font-family: Rubik-medium;
+display: flex;
+text-decoration: none;
+}
+.ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+main{
+    margin-top: 36px;
+    
+}
+.firstchannel{
+    width: 1180px;
+    height: 162px;
+    background-color: #F2F2F2;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+    
+
+.first-header{
+    color: #333333;
+font-size: 20px;
+font-family: Rubik-medium;
+}
+
+.current{
+    color:#E5261E;
+    
+    
+}
+.tv-text{
+    font-size: 16px;
+    font-family: Rubik;
+    
+}
+
+.channels__item{
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.channels__img{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 84px;
+    width: 500px;
+    margin-top: -85px;
+    margin-left: 58px;
+}
+.head{
+    height: 122px; 
+}
+.footer{ 
+    display: flex; 
+    width: 150%; 
+    height: 120px; 
+    margin-left: -130px;
+    background: var(--Gray-6, #F2F2F2); 
+    align-items: center; 
+    margin-top: 72px;
+} 
+ 
+.footer_logo{ 
+    width: 32px; 
+    height: 64px; 
+    margin-left: 130px; 
+    margin-right: 40px; 
+ 
+} 
+.footer_text{ 
+   display: block;
+}
+.adres{
+    color: var(--Gray-1, #333);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    height: 19px;
+    margin-top: 6px;
+    width: 940px;
+    
+}
+.site{
+    text-decoration: none;
+    color: var(--htc-color, #1F4766);
+    font-family: Rubik-medium;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+}
+.site1{
+    height: 19px;
+    margin-top: 10px;
+    width: 940px;
+}
+@media screen and (max-width:390px){
+    .container{
+        width: 390px;
+    }
+ .footer{
+    width: 390px;
+    margin-left:0px;
+    height: 150px;
+ }
+.adres{
+    height: 50px;
+    width: 278px;
+    margin-top: 12px;
+}
+
+.site1{
+    width: 278px;
+    margin-top: -20px;
+}
+.footer_logo{ 
+    margin-left: 40px; 
+} 
+    .header_search{
+        width: 200px;
+    }
+    .header{
+        height: 130px;
+        flex-direction: column;
+    }
+    .header_login{
+        margin-bottom: -20px;
+    }
+    .channels__img{
+        width: 50px;
+        margin-top: 20px;
+    }
+    .firstchannel{
+        width: 390px;
+        flex-direction: column;
+        height: 250px;
+        
+    }
+    .channels__item{
+       margin-left: 30px;
+
+
+    }
+    .name{
+        margin-left: 90px;
+        width: 200px;
+    }
+    .first-header{
+        margin-top: 16px;
+        text-align: center;
+    }
+
+}
